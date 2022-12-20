@@ -49,26 +49,6 @@ new_student = {'name':'dhoni',
 students.append(new_student)
 #print(students)
 
-def update_grade_totalmarks(s):
-   # print(s)
-   #print(type(s))
-    m = s['marks'].values()
-    d = 0
-    for i in m:
-        d = d + i
-    print(d)
-
-def assign_grade(m):
-    t = 0
-    for i, j in m.items():
-        t = t+j
-    print("total marks: ", t)
-    if t >= 200:
-        print("A grade")
-    elif 100 <= t < 200:
-        print("B Grade")
-    elif t < 100:
-        print("C grade")
 
 
 # greater than or equal 200, A rade
